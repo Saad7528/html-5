@@ -1,4 +1,19 @@
-header ul li{
-    /* display: inline; */
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    padding: 10px;
 
+}
+nav li:hover{
+    background-color: blueviolet;
+    
+}
+nav li a{
+    text-decoration: none;
+
+
+}
+nav li a :hover{
+    color: white;
 }
