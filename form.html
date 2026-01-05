@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style/styles.css">
+    <style>
+        .basic-info label{
+            display: block;
+            margin-top: 15px;
+
+        }
+        fieldset{
+            margin-bottom: 15px;
+        }
+    </style>
 
 </head>
 <body>
@@ -31,6 +41,46 @@
                     <label for="number">Your Number</label>
                     <input type="number" id="number" placeholder="ex:01712345678">
                 </fieldset>
+
+                <fieldset id="Select-pitha">
+                    <legend>Select Your Pitha</legend>
+
+                    <input type="radio" name="pitha" id="chitoi">
+                    <label for="Chitoi">Chitoi</label>
+                    <br>
+
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="Vapa">Vapa</label>
+                    <br>
+
+                    <input type="radio" name="pitha" id="Puri">
+                    <label for="Puri">Puri</label>
+                </fieldset>
+            
+
+                <fieldset>
+                    <legend>Select Your vorta</legend>
+
+                    <input type="checkbox" name="vorta" id="sorisha-vorta">
+                    <label for="Sorisa vorta">Sorisha vorta</label>
+                    <br>
+
+                    <input type="checkbox" name="vorta" id="dhoniya-vorta">
+                    <label for="dhoniya-vorta">Dhoniya-vorta</label>
+                    <br>
+
+                    <input type="checkbox" name="vorta" id="shutki-vorta">
+                    <label for="sutki-vortas">Shutki Vorta</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Note</legend>
+                    <textarea cols="50" rows="4" name="note" id=""></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
             </form>
         </section>
 
