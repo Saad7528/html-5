@@ -17,3 +17,9 @@ nav li a{
 nav li a :hover{
     color: white;
 }
+footer{
+    text-align: center;
+}
+figure{
+    align-items: center;
+}
